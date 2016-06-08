@@ -1,0 +1,72 @@
+/* Removes list style and adds min width to entire page container */
+.octodex{
+  list-style:none;
+  position:relative;
+  min-width:1000px;
+}
+
+.image-caption{
+  display:inline;
+  float:right;
+}
+
+/* Removes link style from the author links */
+.image-caption a{
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.octocat{
+  float:left;
+}
+
+.image-footer li img{
+  display:inline;
+  width:20px;
+}
+
+.octocat img{
+  display: block;
+  max-width:300px;
+  outline: solid lightgrey 2px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.image-footer{
+  position:relative;
+  font-size:smaller;
+}
+
+.authors{
+  float:right;
+  padding:2px;
+}
+
+/* To remove the bullets from the authors */
+.authors li{
+  list-style:none;
+}
+
+.authors img{
+  outline:none;
+  margin:0;
+  margin-right:5px;
+}
+
+/* To make the image numbers grey */
+
+.image-number{
+  margin-left:10px;
+  display:inline;
+  color:lightgrey;
+  font-weight:bold;
+}
+
+/* To make the # appear before the image numbers */
+
+.image-number:before{
+  content:"#";
+}
